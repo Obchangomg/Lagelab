@@ -1,7 +1,7 @@
 # Module 01 Unit 8 Connect two Azure Virtual Networks using global virtual network peering 
 # 使用全域虛擬網路對等連接兩個 Azure 虛擬網絡
 
-## 情境模擬
+## 情境模擬 
 
 不同區域公司分部即將開張，該公司正在將基礎設施和應用程序遷移到 Azure。你身為網絡工程師，你必須計劃並實施兩個虛擬網路進行peering對等連接
 
