@@ -7,7 +7,7 @@
 
 Contoso 公司希望能建立一個部署於多區域的 Web 應用，並透過 Azure Front Door 提供自動流量導向與容錯能力（Failover）。
 
-![架構圖](../image/m5u6/task1_4.png)
+![架構圖](az-700/vnet/image/m5u6/task1_4.png)
 
 ## 二、架構目標
 
