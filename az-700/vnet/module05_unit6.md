@@ -50,8 +50,8 @@ Contoso 公司希望能建立一個部署於多區域的 Web 應用，並透過 
 
    (4) 點選「Review + create」並建立
 
-   ![Task1圖](image/m5u6\task1_2.png)
-   ![Task1圖](image/m5u6\task1_3.png)
+   ![Task1圖](image/m5u6/task1_2.png)
+   ![Task1圖](image/m5u6/task1_3.png)
 
 3. 建立第二個 Web App  
    (1) 重複上述步驟，改以下設定：
@@ -62,13 +62,13 @@ Contoso 公司希望能建立一個部署於多區域的 Web 應用，並透過 
    | 區域           | East US                       |
    | App Service Plan | myAppServicePlanEastUS      |
 
-    ![Task1圖](image/m5u6\task1_4.png)
+    ![Task1圖](image/m5u6/task1_4.png)
 
     (2) 備註：若出現部署錯誤，請確認是否為區域配額限制，可更換區域後重試。
-     ![Task1圖](image/m5u6\task1_5.png)
+     ![Task1圖](image/m5u6/task1_5.png)
     - Solution: 把區域原為- East US改為 East US 2，就可設定成功
-     ![Task1圖]( image/m5u6\task1_6.png)
-      ![Task1圖]( image/m5u6\task1_7.png)
+     ![Task1圖](image/m5u6/task1_6.png)
+      ![Task1圖](image/m5u6/task1_7.png)
 
 ---
 
@@ -97,8 +97,8 @@ Contoso 公司希望能建立一個部署於多區域的 Web 應用，並透過 
    (1) 點選「Review and Create」並部署  
    (2) 部署完成後點選「Go to Resource」
 
-     ![Task2圖](image/m5u6\task2_10.png)
-     ![Task2圖](image/m5u6\task2_11.png)
+     ![Task2圖](image/m5u6/task2_10.png)
+     ![Task2圖](image/m5u6/task2_11.png)
 
     2.1 出現異常訊息: 沒有microsft.cdn沒有註冊
    (1) 解決方式：手動註冊 Microsoft.Cdn
@@ -111,8 +111,8 @@ Contoso 公司希望能建立一個部署於多區域的 Web 應用，並透過 
     - 點選後方的「Register」按鈕
     - 等候數十秒至 1 分鐘，狀態會從 NotRegistered 變成 Registered
 
-    ![Task2圖](image/m5u6\task2_8.png)
-    ![Task2圖](image/m5u6\task2_9.png)
+    ![Task2圖](image/m5u6/task2_8.png)
+    ![Task2圖](image/m5u6/task2_9.png)
     
 
 3. 加入第二個 Origin  
@@ -121,8 +121,8 @@ Contoso 公司希望能建立一個部署於多區域的 Web 應用，並透過 
    - 點選「Add an origin」，加入 WebAppContoso-2  
    - 點「Add」後點選「Update」完成設定
 
-    ![Task2圖](image/m5u6\task2_12.png)
-    ![Task2圖](image/m5u6\task2_13.png)
+    ![Task2圖](image/m5u6/task2_12.png)
+    ![Task2圖](image/m5u6/task2_13.png)
 
 ---
 
@@ -133,7 +133,7 @@ Contoso 公司希望能建立一個部署於多區域的 Web 應用，並透過 
 1. 取得 Front Door Endpoint  
    - 回到 Front Door 總覽頁  
    - 找到 endpoint（例如：`fdendpoint-xxxx.azurefd.net`）並複製
-    ![Task3圖](image/m5u6\task3_14.png)
+    ![Task3圖](image/m5u6/task3_14.png)
 
 2. 使用瀏覽器測試  
    - 貼上該網址應顯示 App Service 預設頁面
@@ -155,7 +155,7 @@ Remove-AzResourceGroup -Name 'ContosoResourceGroup' -Force -AsJob
 
 ## 五、延伸學習建議
 1. Front Door 與 Application Gateway 差異？
-  ![Takeaway圖](image/m5u6\task4_16.png)
+  ![Takeaway圖](image/m5u6/task4_16.png)
 
 Q. 那該使用哪一個？  
 (1) 你只在「台灣」架一個網站：用 Application Gateway  
