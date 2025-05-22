@@ -63,7 +63,6 @@ Contoso 公司希望能建立一個部署於多區域的 Web 應用，並透過 
    | App Service Plan | myAppServicePlanEastUS      |
 
     ![Task1圖](.\image\m5u6\task1_4.png)
-   ![Task1圖](az-700/vnet/image/m5u6/task1_4.png)
 
     (2) 備註：若出現部署錯誤，請確認是否為區域配額限制，可更換區域後重試。
      ![Task1圖](.\image\m5u6\task1_5.png)
